@@ -10,3 +10,11 @@ kv_namespaces = [
 
 [assets]
 directory = "./public"
+
+[vars]
+CONFIG_TTL_SECONDS = 0
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
